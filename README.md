@@ -19,7 +19,7 @@
 ### Google Apps Script
 #### Create a script file
 1. Follow [the steps](https://developers.google.com/apps-script/guides/standalone#creating_a_standalone_script) to create a new Google Apps Script project.
-2. Enter the source of Code.gs in the editor.
+2. Enter the source of [Code.gs](https://github.com/yamadatomonori/gas-github/blob/main/Code.gs) in the editor.
 
 #### Store GitHub information  
 1. _File_ > _Project properties_ > _Script properties_. See [the video](https://youtu.be/-uREM_nJf60?list=PLbsvRhEyGkKdUKw5d8wURpo_AX-gViZ_G&t=218) to follow the steps.
