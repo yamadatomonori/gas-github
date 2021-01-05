@@ -23,7 +23,7 @@ async function doPost(ev) {
     createIssue(input: {\
       repositoryId: \\"' + node_id + '\\",\
       title: \\"New repository created.\\",\
-      body: \\"@' + PropertiesService.getScriptProperties().getProperty('GitHub User ID') + ' @' + payload.sender.login + ' created the repository. Main branch is [protected](../settings/branches).\\"\
+      body: \\"@' + PropertiesService.getScriptProperties().getProperty('GitHub User ID') + ' @' + payload.sender.login + ' created the repository. Main branch is [protected](../settings/branches)(Sign in required).\\"\
     }) {  clientMutationId  }}"\
 \n}\
 ');
