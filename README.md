@@ -23,18 +23,24 @@
 
 #### Store GitHub information  
 1. _File_ > _Project properties_ > _Script properties_. See [the video](https://youtu.be/-uREM_nJf60?list=PLbsvRhEyGkKdUKw5d8wURpo_AX-gViZ_G&t=218) to follow the steps.
-1. Add the following properties
+1. Add the following properties:
    * _Property_: **GitHub Personal Access Token**, _Value_: {{ Your Personal Access Token }}
    * _Property_: **GitHub User ID**, _Value_: {{ Your User ID }}
   
 #### Deploy as a Web application
-
+1. Follow [the steps](https://developers.google.com/apps-script/guides/web#deploy_a_script_as_a_web_app).
+   *  At step 4, select **Me**.
+   *  At step 5, select **Anyone, even anonymous**.
+1. Take note the _Current web app URL_.
 
 #### (Optional) Link a Google Cloud Platform project
-
+(Todo: @yamadatomonori)
 
 ### GitHub
 #### Setting Webhooks
+1. Follow [the steps](https://docs.github.com/en/free-pro-team@latest/developers/webhooks-and-events/creating-webhooks#setting-up-a-webhook).
+   1. For _Payload URL_, enter the aforementioned web app URL.
+   1. For _Which events would you like to trigger this webhook?_, select **Let me select individual events.**, then tick **Repositories**
 
 ## Demo
 https://github.com/My-organisation-0103
