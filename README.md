@@ -18,9 +18,18 @@
 ## Setting up
 ### Google Apps Script
 #### Create a script file
+1. Follow [the steps](https://developers.google.com/apps-script/guides/standalone#creating_a_standalone_script) to create a new Google Apps Script project.
+2. Enter the source of Code.gs in the editor.
 
-#### Store GitHub information
+#### Store GitHub information  
+1. _File_ > _Project properties_ > _Script properties_. See [the video](https://youtu.be/-uREM_nJf60?list=PLbsvRhEyGkKdUKw5d8wURpo_AX-gViZ_G&t=218) to follow the steps.
+1. Add the following properties
+   * _Property_: **GitHub Personal Access Token**, _Value_: {{ Your Personal Access Token }}
+   * _Property_: **GitHub User ID**, _Value_: {{ Your User ID }}
+  
 #### Deploy as a Web application
+
+
 #### (Optional) Link a Google Cloud Platform project
 
 
